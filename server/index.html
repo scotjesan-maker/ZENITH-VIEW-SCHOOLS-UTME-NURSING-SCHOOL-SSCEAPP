@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zenith View Quiz App</title>
+  <!-- Link to your CSS if you have -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome to Zenith View Quiz App</h1>
+  <p>Click below to start the quiz:</p>
+  <button id="startQuizBtn">Start Quiz</button>
+
+  <!-- Your main JS file -->
+  <script src="app.js"></script>
+
+  <script>
+    // Simple button to redirect to the app page
+    const startBtn = document.getElementById('startQuizBtn');
+    startBtn.addEventListener('click', () => {
+      // Replace 'main.html' with your actual app page file name
+      window.location.href = 'main.html';
+    });
+  </script>
+</body>
+</html>
